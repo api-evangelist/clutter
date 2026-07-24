@@ -1,22 +1,46 @@
 aid: clutter
 name: Clutter
-description: 'Clutter is a company surfaced as a portfolio company of gv, softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Clutter is a full-service, on-demand storage and moving company (clutter.com)
+  that picks up, professionally packs and photo-catalogs customers'' belongings, stores
+  them in secure 24/7-monitored warehouses, and redelivers individual items on demand.
+  Founded in 2013 and once a SoftBank-backed unicorn, Clutter merged with MakeSpace
+  and was acquired by Iron Mountain in 2023; it now operates as "Clutter by Iron Mountain"
+  serving major US metros and Toronto. This is a consumer-facing services company with
+  a customer account portal and booking flow but no public developer program or API;
+  the record is maintained in the API Evangelist network for company/portfolio tracking.'
 url: https://raw.githubusercontent.com/api-evangelist/clutter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - gv
 - softbank-vision-fund
+x-acquired-by: iron-mountain
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.clutter.com/packs/media/images/www/windows_social-9f2d978c52e740dcad36ff105f9fec5a.jpg
 tags:
 - Company
 - Consumer
+- Storage
+- Moving
+- Logistics
+- On-Demand
+- Warehousing
+- Iron Mountain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +49,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://clutter.com
+  url: https://www.clutter.com
+- type: Support
+  url: https://www.clutter.com/help
+- type: Pricing
+  url: https://www.clutter.com/book/storage
+- type: SignUp
+  url: https://account.clutter.com
+- type: TermsOfService
+  url: https://www.clutter.com/legal/terms_of_service
+- type: PrivacyPolicy
+  url: https://www.clutter.com/legal/privacy_policy
+- type: DomainSecurity
+  url: security/clutter-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
